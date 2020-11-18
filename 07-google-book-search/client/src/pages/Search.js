@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar"
 import Results from "../components/Results"
 import APIbooks from '../utils/booksAPI'
 import Jumbotron from "../components/Jumbotron";
+import NoResults from '../components/NoResults'
 import "./style.css";
 
 
@@ -56,6 +57,7 @@ function Search() {
         data={books}
         saveBook={saveBook}
         />
+        <NoResults />
           
 
         </div>
