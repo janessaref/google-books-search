@@ -24,11 +24,11 @@ function Saved() {
         }, [books])
 
     return(
-        <React.Fragment>
+        <div className="mb-5">
             <Navbar />
             <Jumbotron />
             <SavedBooks books={books} deleteBooks={deleteBooks}/>
-        </React.Fragment>
+        </div>
     )
 }
 
