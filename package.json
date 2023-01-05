@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Google-book-search",
   "main": "server.js",
-  "Engines": {
-    "node": "v18.12.1"
+  "engines": {
+    "node": "18.x"
   },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
